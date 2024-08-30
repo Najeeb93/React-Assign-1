@@ -6,12 +6,18 @@ import Container from './Container.jsx';
 import Simple from './assets/Components/Simple.jsx';
 function App() {
 
+  const [count, setCount] = useState(0);
+  function updateCount(){
+    setCount(count + 1);
+  }
 
   return (
     <>
-   <Simple name="Smit"/>
-   <Simple name="Karachi"/>
+    <h1>button clicked {count} times</h1>
+    <button className='btn' onClick={updateCount}> Click </button>
+
     </>
+
   )
 }
 
