@@ -9,7 +9,8 @@ function App() {
 
   return (
     <>
-   <Simple/>
+   <Simple name="Smit"/>
+   <Simple name="Karachi"/>
     </>
   )
 }
