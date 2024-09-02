@@ -35,7 +35,7 @@ function StatusCard() {
                     className={`w-60 p-1 border rounded-md mx-4`}type="color" placeholder="Select Bg Color" />
                 </label>
                 <label> Text Color
-                    <input value={textColor} onChange={(e) => setTextColor(e.target.value)} type="color" placeholder="Select Text Color" /> 
+                    <input value={textColor} onChange={(e) => setTextColor(e.target.value)}   className={`w-60 p-1 border rounded-md mx-4`} type="color" placeholder="Select Text Color" /> 
                     </label>
                 <button onClick={handleOnClick} className="p-1 bg-slate-700 text-White px-3 rounded-md">
                     Add
@@ -50,3 +50,5 @@ function StatusCard() {
     );
 
 }
+
+export default StatusCard;

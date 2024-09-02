@@ -4,20 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Container from './Container.jsx';
 import Simple from './assets/Components/Simple.jsx';
+import StatusCard from './assets/Components/StatusCard.jsx';
 function App() {
 
   const [count, setCount] = useState(0);
-  function updateCount(){
-    setCount(count + 1);
-  }
+
+  
 
   return (
-    <>
-   
-
-    </>
-
+    
+  <>
+  <StatusCard/>
+  </>
   )
 }
 
-export default App
+export default App;
