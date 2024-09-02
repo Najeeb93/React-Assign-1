@@ -37,9 +37,13 @@ function StatusCard() {
                 <button onClick={handleOnClick} className="p-1 bg-slate-700 text-White px-3 rounded-md">
                     Add
                 </button>
-
+            </div>
+            <div className="flex flex-wrap gap-2">
+            {status.map((data) => (
+                 <card removeCard={onRemove} key={data.createdAt} data={data}/>   
+            ))}
             </div>
         </div>
-    )
+    );
 
 }
