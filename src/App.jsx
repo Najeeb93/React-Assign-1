@@ -5,12 +5,14 @@ import './App.css'
 import Container from './Container.jsx';
 import Simple from './assets/Components/Simple.jsx';
 import StatusCard from './assets/Components/StatusCard.jsx';
-function App() {
 
+
+function App() {
+const [msg, setMsg] = useState('This is a functional component!')
   return (
     
   <>
-  <StatusCard/>
+  <h1>{msg}</h1>
   </>
   )
 }
