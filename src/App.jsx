@@ -7,10 +7,6 @@ import Simple from './assets/Components/Simple.jsx';
 import StatusCard from './assets/Components/StatusCard.jsx';
 function App() {
 
-  const [count, setCount] = useState(0);
-
-  
-
   return (
     
   <>

@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Card  from "./Components/Card";
+import Card from "./Card";
 
 function StatusCard() {
     const [status, setStatus] =useState([]);
-    const [text, setText] = useState("Hello");
+    const [text, setText] = useState("");
     const [bg, setBg] = useState("#00000");
     const [textColor, setTextColor] = useState("#ffffff");
 
