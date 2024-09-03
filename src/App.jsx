@@ -8,11 +8,10 @@ import StatusCard from './assets/Components/StatusCard.jsx';
 
 
 function App() {
-const [msg, setMsg] = useState('This is a functional component!')
   return (
     
   <>
-  <h1>{msg}</h1>
+ 
   </>
   )
 }
