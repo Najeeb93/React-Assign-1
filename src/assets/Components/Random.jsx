@@ -1,7 +1,7 @@
 function Random() {
-    let number = Math.random() * 2;
+    let number = Math.random() * 100;
     return (
-        <h1>Random number is: {number}</h1>
+        <h1 style={{paddingLeft: '10px', color: 'gray'}}>Random number is: {Math.round(number)}</h1>
     )
 }
 
