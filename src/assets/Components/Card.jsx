@@ -1,5 +1,6 @@
 
 import React, { useEffect, useRef, useState} from "react";
+import StatusCard from "./StatusCard";
 
 const Card = ({data, removeCard}) => {
     const [timer, setTimer] = useState(30);
