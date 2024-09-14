@@ -7,7 +7,7 @@ function HealthyFood() {
         <h1 style={{marginLeft: '10px'}}>Healthy Food</h1>
         <ul>
             {foodItems.map((item) => (
-                <li style={{marginTop: '5px', paddingLeft: '10px'}}>{item}</li>
+                <li key={item} style={{marginTop: '5px', paddingLeft: '10px'}}>{item}</li>
             ))}
         </ul>
         </>
