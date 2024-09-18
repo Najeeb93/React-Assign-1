@@ -1,4 +1,4 @@
-
+import { useState } from "react";
 
 function BgColor(){
     const [color, setColor] = useState("black")
@@ -46,3 +46,5 @@ function BgColor(){
     </div>
     )
 }
+
+export default BgColor;

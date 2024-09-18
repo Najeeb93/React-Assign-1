@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import BgColor from './assets/Components/Bgcolor';
 import HealthyFood from './assets/Components/HealthyFood';
 
 
@@ -8,7 +9,7 @@ import HealthyFood from './assets/Components/HealthyFood';
 
 function App() {
   return (
-<HealthyFood/>
+<BgColor/>
   
   )
 }
